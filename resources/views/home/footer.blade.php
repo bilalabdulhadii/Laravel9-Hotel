@@ -1,84 +1,87 @@
-<footer class="ftco-footer ftco-bg-dark ftco-section">
+<footer id="footer" class="fh5co-bg-color">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Roxandrea</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                    </ul>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="copyright">
+                    <p><small>&copy; 2016 Free HTML5 Template. <br> All Rights Reserved. <br>
+                            Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> <br> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
                 </div>
             </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4 ml-md-5">
-                    <h2 class="ftco-heading-2">Useful Links</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="py-2 d-block">Blog</a></li>
-                        <li><a href="#" class="py-2 d-block">Rooms</a></li>
-                        <li><a href="#" class="py-2 d-block">Amenities</a></li>
-                        <li><a href="#" class="py-2 d-block">Gift Card</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Privacy</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="py-2 d-block">Career</a></li>
-                        <li><a href="#" class="py-2 d-block">About Us</a></li>
-                        <li><a href="#" class="py-2 d-block">Contact Us</a></li>
-                        <li><a href="#" class="py-2 d-block">Services</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Have a Questions?</h2>
-                    <div class="block-23 mb-3">
-                        <ul>
-                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>Company</h3>
+                        <ul class="link">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Hotels</a></li>
+                            <li><a href="#">Customer Care</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Our Facilities</h3>
+                        <ul class="link">
+                            <li><a href="#">Resturant</a></li>
+                            <li><a href="#">Bars</a></li>
+                            <li><a href="#">Pick-up</a></li>
+                            <li><a href="#">Swimming Pool</a></li>
+                            <li><a href="#">Spa</a></li>
+                            <li><a href="#">Gym</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Subscribe</h3>
+                        <p>Sed cursus ut nibh in semper. Mauris varius et magna in fermentum. </p>
+                        <form action="#" id="form-subscribe">
+                            <div class="form-field">
+                                <input type="email" placeholder="Email Address" id="email">
+                                <input type="submit" id="submit" value="Send">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>.Downloaded from <a href="https://themeslab.org/" target="_blank">Themeslab</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <div class="col-md-3">
+                <ul class="social-icons">
+                    <li>
+                        <a href="#"><i class="icon-twitter-with-circle"></i></a>
+                        <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                        <a href="#"><i class="icon-instagram-with-circle"></i></a>
+                        <a href="#"><i class="icon-linkedin-with-circle"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 </footer>
 
+</div>
+<!-- END fh5co-page -->
 
+</div>
+<!-- END fh5co-wrapper -->
 
-<!-- loader -->
-<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+<!-- Javascripts -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<!-- Dropdown Menu -->
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Counters -->
+<script src="js/jquery.countTo.js"></script>
+<!-- Stellar Parallax -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Owl Slider -->
+<!-- // <script src="js/owl.carousel.min.js"></script> -->
+<!-- Date Picker -->
+<script src="js/bootstrap-datepicker.min.js"></script>
+<!-- CS Select -->
+<script src="js/classie.js"></script>
+<script src="js/selectFx.js"></script>
+<!-- Flexslider -->
+<script src="js/jquery.flexslider-min.js"></script>
 
-
-<script src="{{asset('assets')}}/js/jquery.min.js"></script>
-<script src="{{asset('assets')}}/js/jquery-migrate-3.0.1.min.js"></script>
-<script src="{{asset('assets')}}/js/popper.min.js"></script>
-<script src="{{asset('assets')}}/js/bootstrap.min.js"></script>
-<script src="{{asset('assets')}}/js/jquery.easing.1.3.js"></script>
-<script src="{{asset('assets')}}/js/jquery.waypoints.min.js"></script>
-<script src="{{asset('assets')}}/js/jquery.stellar.min.js"></script>
-<script src="{{asset('assets')}}/js/owl.carousel.min.js"></script>
-<script src="{{asset('assets')}}/js/jquery.magnific-popup.min.js"></script>
-<script src="{{asset('assets')}}/js/aos.js"></script>
-<script src="{{asset('assets')}}/js/jquery.animateNumber.min.js"></script>
-<script src="{{asset('assets')}}/js/jquery.mb.YTPlayer.min.js"></script>
-<script src="{{asset('assets')}}/js/bootstrap-datepicker.js"></script>
-<!-- // <script src="{{asset('assets')}}/js/jquery.timepicker.min.js"></script> -->
-<script src="{{asset('assets')}}/js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="{{asset('assets')}}/js/google-map.js"></script>
-<script src="{{asset('assets')}}/js/main.js"></script>
+<script src="js/custom.js"></script>

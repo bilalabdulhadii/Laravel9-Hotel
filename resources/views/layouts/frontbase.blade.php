@@ -1,42 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <title>@yield("title")</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+    <title>@yield("title")</title>
 
-    <link rel="stylesheet" href="{{asset('assets')}}/css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/css/animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+    <meta name="author" content="FREEHTML5.CO" />
 
-    <link rel="stylesheet" href="{{asset('assets')}}/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/css/magnific-popup.css">
+    <!--
+      //////////////////////////////////////////////////////
 
-    <link rel="stylesheet" href="{{asset('assets')}}/css/aos.css">
+      FREE HTML5 TEMPLATE
+      DESIGNED & DEVELOPED by FREEHTML5.CO
 
-    <link rel="stylesheet" href="{{asset('assets')}}/css/ionicons.min.css">
+      Website: 		http://freehtml5.co/
+      Email: 			info@freehtml5.co
+      Twitter: 		http://twitter.com/fh5co
+      Facebook: 		https://www.facebook.com/fh5co
 
-    <link rel="stylesheet" href="{{asset('assets')}}/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/css/jquery.timepicker.css">
+      //////////////////////////////////////////////////////
+       -->
 
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
 
-    <link rel="stylesheet" href="{{asset('assets')}}/css/flaticon.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/css/icomoon.css">
-    <link rel="stylesheet" href="{{asset('assets')}}/css/style.css">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,900,700,900italic' rel='stylesheet' type='text/css'> -->
+
+    <!-- Stylesheets -->
+    <!-- Dropdown Menu -->
+    <link rel="stylesheet" href="css/superfish.css">
+    <!-- Owl Slider -->
+    <!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
+    <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+    <!-- Date Picker -->
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <!-- CS Select -->
+    <link rel="stylesheet" href="css/cs-select.css">
+    <link rel="stylesheet" href="css/cs-skin-border.css">
+
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Flat Icon -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- Icomoon -->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 
     @yield("head")
 </head>
 
-
 <body>
-@include("home.header")
 
-@section('sidebar')
-    @include("home.sidebar")
-@show
+@include("home.header")
 
 @section('slider')
 
@@ -45,7 +88,9 @@
 @yield('content')
 
 
-<@include("home.footer")
+@include("home.footer")
+
 @yield('foot')
+
 </body>
 </html>

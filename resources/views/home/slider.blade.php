@@ -1,36 +1,55 @@
-<div class="hero">
-    <div class="container-wrap d-flex justify-content-end align-items-end">
-        <a href="https://www.youtube.com/watch?v=ism1XqnZJEg" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
-            <span class="ion-ios-play play"></span>
-        </a>
-    </div>
-    <section class="home-slider owl-carousel">
-        <div class="slider-item" style="background-image:url({{asset('assets')}}/images/bg_1.jpg);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center">
-                    <div class="col-md-8 ftco-animate">
-                        <div class="text mb-5 pb-5">
-                            <h1 class="mb-3">Roxandrea</h1>
-                            <h2>More than a hotel... an experience</h2>
+<aside id="fh5co-hero" class="js-fullheight">
+    <div class="flexslider js-fullheight">
+        <ul class="slides">
+            <li style="background-image: url(images/slider1.jpg);">
+                <div class="overlay-gradient"></div>
+                <div class="container">
+                    <div class="col-md-12 col-md-offset-0 text-center slider-text">
+                        <div class="slider-text-inner js-fullheight">
+                            <div class="desc">
+                                <p><span>Bora Hotel</span></p>
+                                <h2>Reserve Room for Family Vacation</h2>
+                                <p>
+                                    <a href="#" class="btn btn-primary btn-lg">Book Now</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </li>
+            <li style="background-image: url(images/slider2.jpg);">
+                <div class="overlay-gradient"></div>
+                <div class="container">
+                    <div class="col-md-12 col-md-offset-0 text-center slider-text">
+                        <div class="slider-text-inner js-fullheight">
+                            <div class="desc">
+                                <p><span>Deluxe Hotel</span></p>
+                                <h2>Make Your Vacation Comfortable</h2>
+                                <p>
+                                    <a href="#" class="btn btn-primary btn-lg">Book Now</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li style="background-image: url(images/slider3.jpg);">
+                <div class="overlay-gradient"></div>
+                <div class="container">
+                    <div class="col-md-12 col-md-offset-0 text-center slider-text">
+                        <div class="slider-text-inner js-fullheight">
+                            <div class="desc">
+                                <p><span>Luxe Hotel</span></p>
+                                <h2>A Best Place To Enjoy Your Life</h2>
+                                <p>
+                                    <a href="#" class="btn btn-primary btn-lg">Book Now</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
 
-        <div class="slider-item" style="background-image:url({{asset('assets')}}/images/bg_2.jpg);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row no-gutters slider-text align-items-center">
-                    <div class="col-md-8 ftco-animate">
-                        <div class="text mb-5 pb-5">
-                            <h1 class="mb-3">Experience Epic Beauty</h1>
-                            <h2>Roxandrea Hotel &amp; Resort</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
+        </ul>
+    </div>
+</aside>
