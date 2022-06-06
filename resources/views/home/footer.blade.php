@@ -1,87 +1,69 @@
-<footer id="footer" class="fh5co-bg-color">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="copyright">
-                    <p><small>&copy; 2016 Free HTML5 Template. <br> All Rights Reserved. <br>
-                            Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> <br> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
+
+<!--- FOOTER --->
+<footer class="noto-font-family">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h3>Useful links</h3>
+                    <ul class="text-capitalize">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Rooms</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h3>Company</h3>
-                        <ul class="link">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Hotels</a></li>
-                            <li><a href="#">Customer Care</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h3>Our Facilities</h3>
-                        <ul class="link">
-                            <li><a href="#">Resturant</a></li>
-                            <li><a href="#">Bars</a></li>
-                            <li><a href="#">Pick-up</a></li>
-                            <li><a href="#">Swimming Pool</a></li>
-                            <li><a href="#">Spa</a></li>
-                            <li><a href="#">Gym</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Subscribe</h3>
-                        <p>Sed cursus ut nibh in semper. Mauris varius et magna in fermentum. </p>
-                        <form action="#" id="form-subscribe">
-                            <div class="form-field">
-                                <input type="email" placeholder="Email Address" id="email">
-                                <input type="submit" id="submit" value="Send">
-                            </div>
-                        </form>
-                    </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h3>Find us</h3>
+                    <p>Healing Center, 176 W Street name,<br>
+                        New York, NY 10014, US<br>
+                        (+71) 987 654 3210<br>
+                        (+71) 987 654 3210<br>
+                        fivehotel@gmail.com
+                    </p>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <ul class="social-icons">
-                    <li>
-                        <a href="#"><i class="icon-twitter-with-circle"></i></a>
-                        <a href="#"><i class="icon-facebook-with-circle"></i></a>
-                        <a href="#"><i class="icon-instagram-with-circle"></i></a>
-                        <a href="#"><i class="icon-linkedin-with-circle"></i></a>
-                    </li>
-                </ul>
+                <div class="col-lg-4 col-md-6 col-12 form">
+                    <h3>News letter</h3>
+                    <form>
+                        <input type="email" placeholder="Email">
+                        <input type="submit">
+                    </form>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </footer>
 
+<div class="copyright noto-font-family">
+    <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/">Free Html Templates</a></p>
 </div>
-<!-- END fh5co-page -->
 
-</div>
-<!-- END fh5co-wrapper -->
+<script src="{{asset('assets')}}/js/jquery-3.3.1.min.js"></script>
+<script src="{{asset('assets')}}/js/bootstrap.min.js"></script>
 
-<!-- Javascripts -->
-<script src="js/jquery-2.1.4.min.js"></script>
-<!-- Dropdown Menu -->
-<script src="js/hoverIntent.js"></script>
-<script src="js/superfish.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<!-- Counters -->
-<script src="js/jquery.countTo.js"></script>
-<!-- Stellar Parallax -->
-<script src="js/jquery.stellar.min.js"></script>
-<!-- Owl Slider -->
-<!-- // <script src="js/owl.carousel.min.js"></script> -->
-<!-- Date Picker -->
-<script src="js/bootstrap-datepicker.min.js"></script>
-<!-- CS Select -->
-<script src="js/classie.js"></script>
-<script src="js/selectFx.js"></script>
-<!-- Flexslider -->
-<script src="js/jquery.flexslider-min.js"></script>
+<script>
+    $(function () {
 
-<script src="js/custom.js"></script>
+        'use strict';
+
+        var winH = $(window).height();
+
+        $('header').height(winH);
+
+        $('.navbar ul.navbar-nav li a').on('click', function (e) {
+
+            var getAttr = $(this).attr('href');
+
+            e.preventDefault();
+            $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
+        });
+    });
+</script>
+
+<!--- /FOOTER --->

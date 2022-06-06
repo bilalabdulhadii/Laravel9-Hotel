@@ -1,43 +1,44 @@
-<div id="fh5co-wrapper">
 
-    <div id="fh5co-page">
+<!--- NAVIGATION --->
+<nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="{{asset('assets')}}/imgs/logo.png" alt="#" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div id="fh5co-header">
-            <header id="fh5co-header-section">
-                <div class="container">
-                    <div class="nav-header">
-                        <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-                        <h1 id="fh5co-logo"><a href="index.html">Luxe</a></h1>
-                        <nav id="fh5co-menu-wrap" role="navigation">
-                            <ul class="sf-menu" id="fh5co-primary-menu">
-                                <li><a class="active" href="index.html">Home</a></li>
-                                <li>
-                                    <a href="hotel.html" class="fh5co-sub-ddown">Hotel</a>
-                                    <ul class="fh5co-sub-menu">
-                                        <li><a href="#">Luxe Hotel</a></li>
-                                        <li><a href="#">Deluxe Hotel</a></li>
-                                        <li>
-                                            <a href="#" class="fh5co-sub-ddown">King Hotel</a>
-                                            <ul class="fh5co-sub-menu">
-                                                <li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
-                                                <li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
-                                                <li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>
-                                                <li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>
-                                                <li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
-                                                <li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Five Star Hotel</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
+        <div class="collapse navbar-collapse" id="show-menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#room">rooms</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Features
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">link</a>
+                        <a class="dropdown-item" href="#">Another link</a>
+                        <a class="dropdown-item" href="#">Another link</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                </div>
-            </header>
+                </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">contacts</a>
+                </li>
+                <li class="nav-item book d-flex align-items-center">
+                    <a class="nav-link" href="#">book now</a>
+                </li>
+            </ul>
         </div>
-        <!-- end:fh5co-header -->
+    </div>
+</nav>
+<!--- /NAVIGATION --->
